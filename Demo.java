@@ -1,16 +1,13 @@
-package com.start;
-
-import com.methods.Recursiion;
-
+package concepts_of_oops;
+import concepts_of_oops.demoMethod;
 public class Demo {
 
 	public static void main(String[] args) {
+		demoMethod d=new demoMethod();
+		//d-referance variable
+		System.out.println(d);
 		
-		//new Recursiion.m1();
-		
-		Recursiion rec=new Recursiion();
-		rec.m1();
-		
+		d.test();
 	}
 
 }
